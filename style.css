@@ -31,6 +31,15 @@ body{
     }
 }
 
+.test{
+    animation: animates 5s linear infinite;
+}
+
+@keyframes animates{
+    to{
+        transform: rotateY(360deg);
+    }
+}
 .shadow{
     position: absolute;
     background: white;
